@@ -1,6 +1,12 @@
 /target
-Cargo.lock
+tasks/
 **/*.rs.bk
-TODO.md
-DEVELOPMENT_ROADMAP.md
+
 CLAUDE.md
+
+
+# Added by cargo
+#
+# already existing elements were commented out
+
+#/target

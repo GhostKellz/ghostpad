@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=GhostPad
+GenericName=Text Editor
+Comment=A lightweight, Windows 11-style text editor for KDE Plasma
+Exec=ghostpad %F
+Icon=dev.ghostpad.GhostPad
+Terminal=false
+Categories=Utility;TextEditor;Qt;KDE;
+Keywords=text;editor;notepad;
+MimeType=text/plain;text/x-c;text/x-c++;text/x-java;text/x-python;text/x-script;application/json;application/xml;
+StartupNotify=true
+StartupWMClass=ghostpad
+X-KDE-Wayland-Interfaces=org_kde_kwin_blur_manager

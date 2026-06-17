@@ -1,0 +1,27 @@
+[package]
+name = "ghostpad-ui-bridge"
+version = "0.1.0"
+edition = "2024"
+license.workspace = true
+repository.workspace = true
+
+[lib]
+name = "ghostpad_ui_bridge"
+path = "src/lib.rs"
+crate-type = ["staticlib", "rlib"]
+
+[dependencies]
+cxx = "1.0"
+cxx-qt = { version = "0.8" }
+cxx-qt-lib = { version = "0.8", features = ["full"] }
+ghostpad-core = { path = "../core" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[build-dependencies]
+cxx-qt-build = { version = "0.8", features = ["link_qt_object_files"] }
+cc = "1"
+pkg-config = "0.3"
+
+[lints]
+workspace = true

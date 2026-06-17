@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5df2ff"/>
+      <stop offset="100%" stop-color="#468efc"/>
+    </linearGradient>
+    <linearGradient id="sheet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#dbe8ff" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#bg)"/>
+  <path d="M40 30h48c6.6 0 12 5.4 12 12v52c0 6.6-5.4 12-12 12h-16l-8 12-8-12H40c-6.6 0-12-5.4-12-12V42c0-6.6 5.4-12 12-12z" fill="url(#sheet)"/>
+  <rect x="48" y="44" width="32" height="8" rx="4" fill="#4a6be0" opacity="0.85"/>
+  <rect x="48" y="60" width="32" height="8" rx="4" fill="#5a7bee" opacity="0.75"/>
+  <rect x="48" y="76" width="24" height="8" rx="4" fill="#6c8ff7" opacity="0.7"/>
+</svg>

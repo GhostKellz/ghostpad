@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>dev.ghostpad.GhostPad</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>GhostPad</name>
+  <summary>A lightweight, Windows 11-style text editor for KDE Plasma</summary>
+
+  <description>
+    <p>
+      GhostPad is a minimalist text editor inspired by Windows 11's Notepad,
+      designed specifically for KDE Plasma on Wayland. It combines the simplicity
+      of classic notepad applications with modern KDE integration.
+    </p>
+    <p>Features include:</p>
+    <ul>
+      <li>Tabbed document editing with session restore</li>
+      <li>Find and replace with regex support</li>
+      <li>Multiple encoding support (UTF-8, UTF-16, ISO-8859-1)</li>
+      <li>Unix and Windows line ending conversion</li>
+      <li>External file modification detection</li>
+      <li>KDE-native translucent window chrome with blur effects</li>
+      <li>Word wrap and customizable settings</li>
+      <li>Auto-save with crash recovery</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">dev.ghostpad.GhostPad.desktop</launchable>
+
+  <url type="homepage">https://github.com/ghostpad/ghostpad</url>
+  <url type="bugtracker">https://github.com/ghostpad/ghostpad/issues</url>
+
+  <developer id="dev.ghostpad">
+    <name>GhostPad Team</name>
+  </developer>
+
+  <provides>
+    <binary>ghostpad</binary>
+  </provides>
+
+  <requires>
+    <display_length compare="ge">640</display_length>
+  </requires>
+
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+  </recommends>
+
+  <categories>
+    <category>Utility</category>
+    <category>TextEditor</category>
+  </categories>
+
+  <keywords>
+    <keyword>text</keyword>
+    <keyword>editor</keyword>
+    <keyword>notepad</keyword>
+    <keyword>kde</keyword>
+    <keyword>plasma</keyword>
+  </keywords>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="0.1.0" date="2025-01-09">
+      <description>
+        <p>Initial release featuring:</p>
+        <ul>
+          <li>Basic text editing with tabbed interface</li>
+          <li>Find and replace functionality</li>
+          <li>Multiple encoding support</li>
+          <li>Settings persistence</li>
+          <li>External file modification detection</li>
+          <li>KDE Plasma integration</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

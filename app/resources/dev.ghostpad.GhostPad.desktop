@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=GhostPad
+GenericName=Text Editor
+Comment=Wayland-native notepad inspired by Windows 11
+Exec=gpad %F
+Icon=dev.ghostpad.GhostPad
+Terminal=false
+Categories=Utility;TextEditor;
+Keywords=Text;Editor;Notepad;GhostPad;
+StartupNotify=true
+StartupWMClass=GhostPad
+X-KDE-FormFactor=desktop
+X-KDE-Wayland-Compatible=true

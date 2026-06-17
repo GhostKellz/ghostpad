@@ -1,0 +1,14 @@
+[package]
+name = "ghostpad-app"
+version = "0.1.0"
+edition = "2024"
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+cxx-qt-lib = { version = "0.8", features = ["qt_gui", "qt_qml"] }
+ghostpad-core = { path = "../core" }
+ghostpad-ui-bridge = { path = "../ui_bridge" }
+
+[lints]
+workspace = true
