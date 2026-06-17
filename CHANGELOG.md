@@ -21,7 +21,7 @@ All notable changes to this project will be documented in this file. The format 
 ### Security
 - `cargo audit` and `cargo deny check` pass with an empty advisory ignore list; advisory history documented under `docs/advisories/`.
 
-## [0.4.0] - 2025-11-05
+## [0.0.0] - 2025-11-05
 ### Added
 - Read-only workflow: automatic detection of filesystem permissions, a warning banner with enable-edit toggle, and lock-aware actions that keep accidental writes at bay.
 - Find & replace workspace featuring an inline panel with incremental search, highlight-all overlays, regex/case/whole-word toggles, and the expected shortcuts (`Ctrl+F`, `F3`, `Shift+F3`, `Ctrl+H`).
@@ -40,7 +40,7 @@ All notable changes to this project will be documented in this file. The format 
 - Switching line-ending styles no longer leaves stale `\r` characters behind; buffers are normalized before conversion.
 - Reloading a document after changing encoding resets dirty state and cursor info to avoid spurious save prompts.
 
-## [0.3.0] - 2025-11-03
+## [0.0.0] - 2025-11-03
 ### Added
 - Cross-platform file pickers for Open / Save / Save As workflows wired into the Rust backend.
 - Dynamic document tabs with dirty-state indicators, MRU-backed welcome page, and an inline autosave status footer.
@@ -54,7 +54,7 @@ All notable changes to this project will be documented in this file. The format 
 - Ensured document state is retained when reopening autosave snapshots.
 - Prevented duplicate entries in the recent-documents shelf when re-opening an already tracked file.
 
-## [0.2.0] - 2025-10-15
+## [0.0.0] - 2025-10-15
 ### Added
 - Initial document manager capable of opening, saving, and tracking multiple documents with MRU persistence.
 - `cxx-qt` bridge exposing document operations to the QML layer.
